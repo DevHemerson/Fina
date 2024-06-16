@@ -1,5 +1,5 @@
 ﻿namespace Fina.Core.Requests.Transactions;
-public class GetTransactionByPeriodRequest: PagedRequest
+public class GetTransactionsByPeriodRequest: PagedRequest
 {
     public DateTime? StartDate { get; set; }
     public DateTime? EndDate { get; set;}
